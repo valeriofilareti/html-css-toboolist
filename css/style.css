@@ -1,3 +1,5 @@
+/* generals-------------------------------------------- */
+
 *{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -7,6 +9,36 @@
 body {
   background-color: rgb(243, 242, 242);
 }
+
+.container {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  border: solid 2px green;
+  border-radius: 100%;
+  text-align: center;
+  margin-left: 50px;
+  color: green;
+  display: inline-block;
+}
+
+.badge {
+  font-size: 10px;
+  border: 1px solid white;
+  padding: 5px;
+  display: inline;
+  border-radius: 10px;
+  color: white;
+} 
+
+/* generals---------------------------------------------------- */
+
 
 /* header------------------------------------------------------ */
 
@@ -32,16 +64,11 @@ img {
 
 /* first section------------------------------------------------------*/
 
-.container {
-  width: 70%;
-  margin: auto;
-  background-color: white;
-  
-}
 
 .container.first {
   height: 50px;
   border-radius: 10px 10px 0 0;
+  margin-bottom: 3px;
 }
 
 .button {
@@ -67,6 +94,38 @@ img {
 
 /* /first section------------------------------------------------------*/
 
-/* header------------------------------------------------------*/
+/* second section------------------------------------------------------*/
 
-/* header------------------------------------------------------*/
+.container.second {
+  border-radius: 0 0 10px 10px;
+}
+
+.task {
+  padding: 30px 0 10px 50px;
+  font-size: 20px;
+}
+
+
+p {
+  display: inline-block;
+}
+
+
+
+
+.badge.blue {
+  background-color: rgb(0, 159, 251);
+}
+
+
+
+
+/* /second section------------------------------------------------------*/
+
+/* second section------------------------------------------------------*/
+
+/* /second section------------------------------------------------------*/
+
+/* second section------------------------------------------------------*/
+
+/* /second section------------------------------------------------------*/
