@@ -37,6 +37,10 @@ body {
   color: white;
 } 
 
+.line {
+  padding-bottom: 20px;
+}
+
 /* generals---------------------------------------------------- */
 
 
@@ -110,11 +114,20 @@ p {
   display: inline-block;
 }
 
-
-
-
 .badge.blue {
   background-color: rgb(0, 159, 251);
+}
+
+.badge.purple {
+  background-color: rgb(155, 47, 177);
+}
+
+.badge.green {
+  background-color: rgb(8, 168, 8);
+}
+
+.badge.orange {
+  background-color: orange;
 }
 
 
